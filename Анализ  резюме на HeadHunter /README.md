@@ -62,7 +62,7 @@
 
 Для исследования зависимостей  применяли метод визуализации. Для визуализации в проекте преимущественно использованы plotly.graph_objects, plotly.express, matplotlib.pyplot и seaborn.
 
-Интерактивные графики можно увидеть  [Ссылка на код в JupiterNotebook в браузере со всеми графиками в интерактивном режиме](https://nbviewer.org/github/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/Analysis_of_HeadHunter_info.ipynb)
+Интерактивные графики можно увидеть  [Ссылка на код в Google colab со всеми графиками](https://colab.research.google.com/drive/1STPIT1_R1Y9E8DT_4IveQQPKc-bI6VRf?usp=sharing)
 
 * 4 этап. Очистка данных
 
