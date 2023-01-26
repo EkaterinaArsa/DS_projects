@@ -1,22 +1,22 @@
 # Проект 1. Анализ  и визуализация данных по уходящим и лояльным клиентам банка
 
 ## Оглавление
-[1. Описание проекта](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
+[1. Описание проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-[2. Какой кейс решаем?](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BA%D0%B5%D0%B9%D1%81-%D1%80%D0%B5%D1%88%D0%B0%D0%B5%D0%BC)
+[2. Какой кейс решаем?](com/EkaterinaArsa/DS_projects/tree/master/Визуализация%20данных%20по%20оттоку%20клиентов%20из%20банка#краткая-информация-о-данных)
 
 [3. Краткая информация о данных](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
 
-[4. Этапы работы над проектом](https://github.com/EkaterinaArsa/BankClientsVisual#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC)
+[4. Этапы работы над проектом](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC)
 
-[5. Результаты](https://github.com/EkaterinaArsa/BankClientsVisual#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)
+[5. Результаты](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B)
 
-[6. Выводы](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
+[6. Выводы](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 ### Описание проекта
 На основе использования метода визуализации результатов анализа данных об оттоке клиентов некоторого банка нужно установить, чем ушедшие клиенты отличаются от лояльных и как между собой связаны различные признаки, определяющие клиентов. 
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 
 ### Какой кейс решаем?
@@ -29,7 +29,7 @@
 **Метрика качества**
 Выбор метода визуализации должен быть максимально информативным для решения поставленной задачи, выводы - убедительны и основаны на результатах визуализации.
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 ### Краткая информация о данных
 
@@ -51,7 +51,7 @@
 
 Для визуализации в проекте преимущественно использованы plotly.express и seaborn
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 
 ### Этапы работы над проектом
@@ -73,7 +73,7 @@
 10. Оценить степень оттока клиентов по уровню их кредитного рейтинга
 
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 
 ### Результаты
@@ -88,7 +88,7 @@
 
 <strong>2 этап. Для решения поставленных задач реализовано 16 графиков различного типа (круговые, столбчатые, иерархические диаграммы, гистограммы, "коробки с усами", тепловые карты, тепловая картограмма)</strong> [Ссылка на код в JupiterNotebook в браузере со всеми графиками](https://nbviewer.org/github/EkaterinaArsa/BankClientsVisual/blob/master/clients_of_bank_HW.ipynb)
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 ### Выводы
 
@@ -115,4 +115,4 @@
 Таким образом: 
 Cреди ушедших клиентов большинство - женщины, старше 40 лет, неактивно пользующиеся услугами банка, с минимальным кредитным рейтингом (только у ушедших клиентов есть рейтинг ниже 400) и длительностью пользования услугами банка менее 1 года и 10 лет. Количество ушедших клиентов обратно пропорционально количеству услуг приобретенных клиентом у банка, в тоже время доля ушедших клиентов увеличивается при увеличении количества используемых услуг.
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/BankClientsVisual#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
