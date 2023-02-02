@@ -160,7 +160,7 @@ git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%
 
 ## Project description
 
-**This project** aims to study the structure, transformation of data, study of its dependencies and clean up it presented in the summary on HeadHunter
+**This project** aims to study the structure, transformation of data, study of its dependencies and clean up it presented in the resumes on HeadHunter
 
 
 ** Structure of project:**
