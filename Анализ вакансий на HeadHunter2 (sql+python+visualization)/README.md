@@ -2,7 +2,7 @@
 ![](./images/data_cleaning.png)
 # <center> Использование SQL+Python для анализа данных </center>
 
-# <center> Application of SQL+Python for data analysis </center> [English version](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#english-version)
+# <center> Application of SQL+Python for data analysis </center> [English version](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#english-version)
 
 ## Оглавление
 1. [Описание проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
@@ -41,15 +41,12 @@
 ** О структуре проекта:**
 
 * [Папка с информацией о таблицах](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables)
-* [HHru analysis(sql+python+visualization).ipynb](./HHru analysis(sql+python+visualization).ipynb)  - jupyter-ноутбук,  из-за некоторых особенностей взаимодействия GitHub и библиотеки Plotly файл не содержит некоторых результатов визуализации. Интерактивные графики можно увидеть  
-[Ссылка на код в NBViewer со всеми графиками](https://nbviewer.org/github/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/Analysis_of_HeadHunter_info.ipynb)
+* [HHru analysis(sql+python+visualization).ipynb](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/HHru%20analysis(sql%2Bpython%2Bvisualization).ipynb)  - jupyter-ноутбук,  из-за некоторых особенностей взаимодействия GitHub и библиотеки Plotly файл не содержит некоторых результатов визуализации. Интерактивные графики можно увидеть  
+[Ссылка на код в NBViewer со всеми графиками](https://nbviewer.org/github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/HHru%20analysis(sql%2Bpython%2Bvisualization).ipynb)
 
 ### Краткая информация о данных
 
-Исходный данные представляеют собой набор таблиц на сайте Metabase с информацией о параметрах соискателя в резюме, а также таблицы, в которой содержится информация о курсах валют на момент написания/обновления резюме. 
-
-
-Необходимо было провести разведывательный анализ и первичную очистку данных, с целью будущего  построения модели, которая бы прогнозировала размеры заработной платы предлагаемой соискателям, опираясь на параметры самого соискателя, и его особенности.
+Исходный данные представляеют собой набор таблиц на сайте Metabase с информацией о вакансиях (Vacancies), работодателях(Employers), регионах (Areas), сферах деятельности(Industries), информация о работодателях и их сферах деятельности (Employers_industries)
 
 Информация о данных в таблицах:
 
@@ -68,7 +65,7 @@
 5. EMPLOYERS_INDUSTRIES [Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Employers_industries.png)
 Дополнительная таблица, которая существует для организации связи между работодателями и сферами их деятельности.
 
-Используемые для анализа данные содержат информацию из 49190 резюме, 23501 работодателе и  1362 регионах.
+Используемые для анализа данные содержат информацию из 49190 вакансиях, 23501 работодателе и  1362 регионах.
 
 :arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
@@ -107,7 +104,7 @@
 В каждом блоке представлены выводы, на 7 этапе сделаны заключения о том, какие вопросы возникли при проведении анализа и какие дальнейшие векторы изучения данных выявлены. В качестве демонстрации проведено исследование данных для ответа на некоторые из возникших вопросов (оценка влияния на предполагаемую зарплату уровня опыта и вида рабочего графика; оценка зависимости результата анализа признака заработной платы, уровня требуемого опыта от сферы деятельности, на примере Яндекса по вакансиям в области DS).
 
 
-Интерактивные графики можно увидеть  [Ссылка на код в NBViewer со всеми графиками](https://nbviewer.org/github/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/Analysis_of_HeadHunter_info.ipynb)
+Интерактивные графики можно увидеть  [Ссылка на код в NBViewer со всеми графиками](https://nbviewer.org/github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/HHru%20analysis(sql%2Bpython%2Bvisualization).ipynb)
 
 :arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
@@ -192,7 +189,7 @@ git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%
 :arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ## Использование проекта
-Вся информация о работе представлена в jupyter-ноутбуке HHru_analysis(sql+python+visualization).ipynb].ipynb.
+Вся информация о работе представлена в jupyter-ноутбуке HHru_analysis(sql+python+visualization).ipynb.
 
 ## Авторы
 
@@ -223,23 +220,23 @@ git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%
 
 ## Table of contents
 
-1. [Project description](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#project-description)
+1. [Project description](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#project-description)
 
-1.1. [Brief information about the data](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#brief-information-about-the-data)
+1.1. [Brief information about the data](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#brief-information-about-the-data)
 
-1.2. [Stages of work on the project](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#stages-of-work-on-the-project)
+1.2. [Stages of work on the project](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#stages-of-work-on-the-project)
     
-1.3. [Results and preliminary conclusions](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#results-and-preliminary-conclusions)
+1.3. [Results and preliminary conclusions](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#results-and-preliminary-conclusions)
 
-2. [Used libraries](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#used-libraries)
+2. [Used libraries](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#used-libraries)
 
-3. [Project uploading](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#project-uploading)
+3. [Project uploading](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#project-uploading)
 
-4. [Application of project](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#application-of-project)
+4. [Application of project](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#application-of-project)
 
-5. [Autors](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#autors)
+5. [Autors](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#autors)
 
-6. [Conclusions](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#conclusions)
+6. [Conclusions](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#conclusions)
 
 ## Project description
 
@@ -258,96 +255,157 @@ Our project includes several stages:
 
 
 ** Structure of project:**
-* [data](./) - filefolder with initial tabular data (zip and csv formats)
-* [pictures](./pictures) - filefolder with images needed for the project
-* [Analysis_of_HeadHunter_info.ipynb](./Analysis_of_HeadHunter_info.ipynb)  - jupyter-ноутбук, containing the main code of the project, which demonstrates methods and approaches for solving data cleaning problems. Due to size restrictions on uploading files to/from GitHub, the file does not contain the results of code execution. Interactive charts can be seen  [Link to Google colab includes plots](https://colab.research.google.com/drive/1STPIT1_R1Y9E8DT_4IveQQPKc-bI6VRf?usp=sharing)
-[Link to NBViewer includes plots](https://nbviewer.org/github/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/Analysis_of_HeadHunter_info.ipynb)
+* [Folder with tables information](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables)
+
+* [HHru analysis(sql+python+visualization).ipynb](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/HHru%20analysis(sql%2Bpython%2Bvisualization).ipynb) - jupyter notebook, due to some facts of GitHub participation and the Plotly library, the file does not contain information. Interactive charts can be seen  [Link to Google colab includes plots](https://colab.research.google.com/drive/1STPIT1_R1Y9E8DT_4IveQQPKc-bI6VRf?usp=sharing)
+[Link to NBViewer includes plots](https://nbviewer.org/github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/HHru%20analysis(sql%2Bpython%2Bvisualization).ipynb)
 
 ### Brief information about the data
 
-This project uses data from 44744 resumes [source: HeadHunter] from hh.ru. The data file can be found [Google диск](https://drive.google.com/drive/folders/1FLa3snx4lB-bvqdkVEidA4PnRNz0rTSD).[GitHub](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/data)
+The initial data is a set of tables on the Metabase website with information about vacancies (Vacancies), employers (Employers), regions (Areas), fields of activity (Industries), information about employers and their fields of activity (Employers_industries)
 
-It was necessary to conduct an exploratory analysis and primary data cleaning, with the aim of building a future model that would predict the amount of wages offered to job seekers, based on the parameters of the job seeker and his characteristics.
+Information about data in tables:
 
-The initial dataset is a data set from a table with information about the parameters of the applicant in the resume, as well as a table that contains information about exchange rates at the time of writing/updating the resume.
+1. VACANCIES [Here](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Vacancies.png)
+The table contains data on vacancies.
 
-The dataset used for the analysis contains information from 44744 abstracts for 12 features describing housing. Resume file can be found [Google диск](https://drive.google.com/file/d/1zrR8KfEBmlOZFxUMceqhThCVZIbDmhun/view?usp=share_link) [GitHub](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/data). Файл с данными по курсу валют можно найти [Google диск]](https://drive.google.com/file/d/1zrR8KfEBmlOZFxUMceqhThCVZIbDmhun/view?usp=share_link) [GitHub](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/data).
+2. AREAS[Here](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Areas.png)
+Reference table that stores the city code and its name.
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#table-of-contents)
+3. EMPLOYERS [Here](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Employers.png)
+Reference table with a list of employers.
+
+4. INDUSTRIES [Here](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Industries.png)
+Reference table of options for areas of activity of employers.
+
+5. EMPLOYERS_INDUSTRIES [Here](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Employers_industries.png)
+An additional table that exists to organize the connection between employers and their areas of activity.
+
+The data used for the analysis contains information from 49190 vacancies, 23501 employers and 1362 regions.
+
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
 
 ### Stages of work on the project
 
-Выполнение проекта проходило в 5 этапа:
+The project was carried out in several stages:
 
-The project was carried out in 5 stages:
+* Stage 1. Selecting the required libraries
 
-* Stage 1. Data structure research
+  - Libraries for working with SQL queries: pandas, sqlalchemy, psycopg2
+  - Visualization libraries: seaborn, plotly.express, plotly.graph_objects
+  - Libraries for displaying plotly plots via nbviewer.org: plotly.offline, plotly.io as pio
 
-It included an acquaintance with the dataset, its features and basic statistical data.
+* Stage 2. Forming a database connection
+ 
+  To connect to the data bose, the **query_func** function was created, which ensured that a query was sent using sqlalchemy and the result returned as a DateFrame.
 
-* Stage 2. Data conversion
+* Stage 3. Preliminary data analysis and familiarization
 
-It included the transformation of non-informative features into informative ones.
-* By highlighting important features from the set. For example: The attribute "Городб готовность к перезду и командировкам" ("City, moving, business trips") was converted into three separate informative attributes **"Город"** ("City"), **Готовность к переезду** ("Ready to move/change city"), **Готовность к командировкам"** ("Ready to bisness traveling"), having a likely impact on the level expected salary.
-* Also, the data were given to the general indicator. For example: the feature "ЗП" (salary), originally indicated in various types of currency, was transformed into the feature **"ЗП (руб)"** (salary in rubles), in which the salary was reflected in rubles.
-* Reduced the number of unique values. For example: the applicant's city of residence was assigned to one of 4 categories: "Москва" ("Moscow"), "Санкт-Питербург" ("St. Petersburg") and "Города-миллионники" ("million population city"), designate the rest as "другие" "other".
-* Some categorical features were converted using the One Hot Encoding method.
+  It included an acquaintance with datasets, its features, and the sizes of the main datasets (vacancies, employers, areas, industries) were determined.
 
-Stage 3. Exploring data dependencies
+* Stage 4. Detailed analysis of vacancies
 
-The visualization method was used to study dependencies. For visualization, the project mainly used plotly.graph_objects, plotly.express, matplotlib.pyplot и seaborn.
+  The presence of vacancies by region, the presence of indications of the level of salary and its average and median values, options for combining the type of work schedule and type of employment, and work experience requirements were determined. Some of the results for improved perception are visualized in graphs.
 
-Interactive plots are presented [Link to Google colab includes plots](https://colab.research.google.com/drive/1STPIT1_R1Y9E8DT_4IveQQPKc-bI6VRf?usp=sharing)
-[Link to NBViewer includes plots](https://nbviewer.org/github/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/Analysis_of_HeadHunter_info.ipynb)
+* Stage 5. Employer Analysis
 
-* Stage 4. Data cleansing
+  The number of vacancies for each of the employers, including the regions, the presence of the indicated field of activity was determined, the employers involved in software development were separately determined, and the availability of vacancies for the most top employer - Yandex in million-plus cities, data on which were obtained using html -request.
 
-> **Data cleaning** is the process of detecting and removing (or fixing) corrupted, false, or uninformative features in a table or entire database. The process consists of two stages: search and liquidation (or editing).
+* Stage 6. Subject analysis (vacancies for DataScience);
 
-The main stages of data cleaning:
-* Dealing with missing values.
-* Clearing data from gaps.
-* Remove features and entries that не несут полезной информации, o not carry useful information, including outliers.
+Determined the total number of vacancies for data scientists, how many of these vacancies are suitable for junior DS specialists, how often knowledge of SQL, Poostgres and Python is required for DS specialists, how many key skills are required on average and what is the level of the proposed salary fees for data scientists depending on experience.
 
-**The purpose of data cleansing** is to get rid of "garbage" that can interfere with the simulation or distort its results. In many tasks, data cleansing is the most important part of the stage of data preparation for building a model, which often takes up most of the work on a task.
+* Stage 7. Drawing conclusions and uploading to GitHub.
 
-* * Stage 5. Preparation of documentation, uploading datasets to Google Drive, as well as other files to GitHub
+Conclusions are presented in each block, at stage 7 conclusions are made about what questions arose during the analysis and what further vectors of data study were identified. As a demonstration, a data study was conducted to answer some of the questions that arose (assessment of the impact on the expected salary of the level of experience and type of work schedule; assessment of the dependence of the result of the analysis of the sign of wages, the level of required experience on the field of activity, using the example of Yandex for vacancies in the field of DS) .
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#table-of-contents)
+Interactive plots are presented 
+[Link to NBViewer includes plots](https://nbviewer.org/github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/HHru%20analysis(sql%2Bpython%2Bvisualization).ipynb)
+
+
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
 
 ### Results and preliminary conclusions
+**Conclusions on preliminary data analysis:**
+  - In the schema (public) presented to us in the database (project_sql) there are 5 tables: vacancies, employers, areas, industries and employers_industries. They provide data on 49197 vacancies (according to the vacancies table), 23501 employers (according to the employers table), 1362 regions (cities) (according to the areas table) and 294 fields of activity (according to the industries table). The employers_industries table is auxiliary and shows the relationship between employers and their fields of activity.
 
-* Most applicants are aged 27-36
-* Most applicants have 57-154 months of experience.
-* Most applicants expect a salary of 40-100 thousand
-* There is a direct dependence of the desired salary on the level of education of the applicant. The highest salary is desired by applicants with higher education.
-* Applicants living in Moscow and St. Petersburg wish to receive the highest salary.
-* Willingness to both relocate and bisness traveling contributes to higher requirements for desired wages. Unwillingness to go on business trips greatly reduces the level of claims.
-* Among people with higher education, for the most part, there is an increase (the fastest of all groups) in the level of the desired salary by the age of 40 (38-45 years).
-The willingness to move and business trips among men is higher than among women, and regardless of gender, the willingness to move slightly increases at the age of over 20 years (up to 48 years for men, up to 34 years for women). It should be noted the jump in willingness to travel at 60 and 70 years old. Men demonstrate a high readiness for business trips regardless of age (the highest is up to 60 years).
-* The average level of desired salary for men is higher than for women.
+**Conclusions on the detailed analysis of vacancies:**
+  - The largest number of vacancies falls on large cities. IN . TOP-5 included: in Russia: Moscow - 5333 vacancies, St. Petersburg - 2851 vacancies, Novosibirsk - 2006 vacancies; in the CIS Minsk - 2112 vacancies, Alma-Ata - 1892 vacancies.
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#table-of-contents)
+  - In more than half of the cases (24,073 out of 49,197), the vacancies contain a minimum and/or maximum level of expected wages.
+
+  - The average values of the "salary fork" are in the range from 71065 to 110537. But given the large number of vacancies with unspecified salary levels, these figures need further adjustment and study. In addition, there are likely to be multiple outliers for this trait.
+
+  - Most of the vacancies are full-time and full-time (35,367 vacancies), fewer offer full-time remote work (7,802 vacancies). The shift type of work schedule is not offered for internships and part-time employment. !It is interesting to see how the type of work schedule and employment is related to the required experience and affects the salary!.
+
+  - Required work experience mainly in the range of 1-3 years (53.2%, 26152 vacancies), less often - 3-6 years (29.5%, 14511 vacancies). Applicants without work experience are ready to accept in 7197 cases (14.6%), in 1337 vacancies more than 6 years of work experience is required (2.72%).
+
+**Conclusions based on the results of the analysis of employers:**
+
+  - Analysis of data on employers showed that in terms of the number of vacancies, the TOP-5 includes such "giants" as Yandex (1933 vacancies), Rostelecom (491 vacancies), Tinkoff (444 vacancies), Sberbank (428 vacancies) and Gazpromneft (331 vacancies) ). This can demonstrate both the active growth of these companies and the high "turnover" of personnel in them. So the Yandex company has vacancies in 16 million-plus cities: Moscow, St. Petersburg, Yekaterinburg, Nizhny Novgorod, Novosibirsk, Voronezh, Krasnodar, Samara, Ufa, Kazan, Perm, Rostov-on-Don, Volgograd, Krasnoyarsk, Chelyabinsk, Omsk (in descending order of the number of vacancies);
+
+  - Analysis of data on employers showed that in terms of the number of vacancies, the TOP-5 includes such "giants" as Yandex (1933 vacancies), Rostelecom (491 vacancies), Tinkoff (444 vacancies), Sberbank (428 vacancies) and Gazpromneft (331 vacancies) ). This can demonstrate both the active growth of these companies and the high "turnover" of personnel in them. Thus, Yandex has vacancies in 16 million-plus cities, the employment market in which is usually quite saturated;
+
+  - Across Russia, most employers with no vacancies are concentrated in the Moscow Region (75 companies), Krasnodar Territory (19 companies) and, unexpectedly, in the Rostov Region (18 companies). Which shows a high degree of saturation of jobs with personnel in these regions;
+
+  - Among the companies with vacancies in various regions, Yandex (vacancies in 181 regions) and Rostelecom (vacancies in 153 regions) stand out significantly, which is probably due to the active growth of these giant companies and constant staff turnover, as well as (! NEED TO SPECIFY!) the possibility of remote work. Unexpectedly, the top five included: such a company as Spetsremont, due to its vastness (116 regions with vacancies), as well as little-known IP "Polyakov Denis Ivanovich" (due to the remote form of work on processing telephone numbers and massive dissatisfaction of employees with the level of wages) ( vacancies in 88 regions) and OOO EFIN (due to an extensive network of branches in more than 500 cities and mass dissatisfaction of employees with the organization of the labor process and wages) (vacancies in 71 regions);
+
+  - In the data presented, 8419 employers (35.8%) do not have information about the field of activity, which may make it difficult for applicants to decide on a response to a vacancy. At the same time, many companies provide information on several areas of activity;
+
+  - Software development is carried out by 3553 companies (15.1%) from the list of employers (!it would be interesting to assess which areas of activity are most represented among employers!), the employment market in which is usually quite saturated;
+
+  - Across Russia, most employers with no vacancies are concentrated in the Moscow Region (75 companies), Krasnodar Territory (19 companies) and, unexpectedly, in the Rostov Region (18 companies). Which probably shows a high degree of job saturation in these regions. !It would be interesting to look at the ratio of the number of vacancies, employers in these regions!;
+
+  - Among the companies with vacancies in various regions, Yandex (vacancies in 181 regions) and Rostelecom (vacancies in 153 regions) stand out significantly, which is probably due to the active growth of these giant companies and constant staff turnover. Unexpectedly, the top five included: such a large company as Spetsremont (116 regions with vacancies), as well as little-known IP "Polyakov Denis Ivanovich" (due to the remote form of work on processing telephone numbers and massive dissatisfaction of employees with the level of wages) (vacancies in 88 regions ) and OOO EFIN (due to an extensive network of branches in more than 500 cities and massive dissatisfaction of employees with the organization of the labor process and wages) (vacancies in 71 regions).  
+**Conclusions on subject analysis (vacancies for DataScience):**
+
+  - 1771 vacancies (36% of the total number of vacancies) are related to working with data;
+
+  - Among the vacancies for data scientists, 51 (2.9%) are suitable for Junior level applicants;
+
+  - On average, 6-7 skills are required for data scientists, while 201 (11.3%) contain requirements for key skills in using SQL and Postres, and 351 (19.8%) require knowledge of Python;
+
+  - At the same time, the average level of the proposed salary for such specialists (DS) depends on experience: for applicants without experience, it is at the level of 74643 rubles, with experience from 1 to 3 years - 139675 rubles, with experience of 3-6 years, the average estimated salary is 243115 rubles. In the proposed data, there are no vacancies with requirements for the duration of experience of more than 6 years.
+
+**Conclusions based on the result of additional research:**
+
+  - the highest level of wages are employees with more than 6 years of experience and working on a rotational basis. Surprisingly, for employees with more than 6 years of experience and on a rotational basis, the salary level is significantly lower than for those with less than 6 years of experience. Probably, there is a presence of "heterogeneous" vacancies. It is necessary to clearly divide vacancies by areas of activity and then conduct a comparative analysis separately for each area.
+
+  - In the vacancies from Yandx in 1475, no experience is required, 380 vacancies for specialists with 1-3 years of experience, 72 vacancies for applicants with 3-6 years of experience, 6 vacancies for specialists with more than 6 years of experience.
+
+  - The median estimated salary at Yandex depends on the region. The maximum is in Moscow (51,000 rubles), the minimum is up to 15,000 in many regions (Kurgan, Krasnodar, Kostroma, etc.).
+
+  - There is no direct dependence of the level of wages on work experience.
+   
+    - Yandex requires specialists in DS who have experience from 1 to 3 years (3 vacancies) and more than 3-6 years (6 vacancies). There are no vacancies for Junior and professionals with more than 6 years of experience. Thus, Yandex has rather high requirements for the level of experience for candidates in this specialty. DS specialists with experience over 6 years are not available at all in vacancies (as we noted above), this is due to the fact that there are only a few of them, they are known in this field and they are invited to the position directly.
+
+    - The salary for DS specialists at Yandex is not indicated, which indicates its dependence on the results of the interview and that candidates are attracted by the image of the company, and not the established salary level&
+
+    **The results shown indicate significant differences for each occupational area and should not be based on generalized data.**
+
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
 
 ## Used libraries
 * Python (3.9):
     * [numpy (1.23.4)](https://numpy.org)
     * [pandas (1.5.2)](https://pandas.pydata.org)
-    * [matplotlib (3.6.2)](https://matplotlib.org)
+    * [SQLAlchemy (2.0.3)](https://www.sqlalchemy.org/)
+    * [psycopg2 (2.9.5)](https://www.psycopg.org/)
     * [plotly(5.11.0) модули  plotly.express и plotly.offline](https://plotly.com/)
     * [seaborn(0.12.1)](https://seaborn.pydata.org/)
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#table-of-contents)
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
 
 ## Project uploading
 
 ```
-git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20
+git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)
 ```
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#table-of-contents)
+
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
 
 ## Application of project
-All information (code) is presented in jupyter-ноутбуке Analysis_of_HeadHunter_info.ipynb.
+Total information (code) about the work is presented in the jupyter notebook HHru_analysis(sql+python+visualization).ipynb.
 
 ## Autors
 
@@ -357,10 +415,18 @@ All information (code) is presented in jupyter-ноутбуке Analysis_of_Head
 
 [VK](https://vk.com/id8747545 )
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#table-of-contents)
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
 
 ## Conclusions
 
-This project has identified a number of indicators that allow you to predict the likely salary that can be offered to the applicant, taking into account his characteristics. So the level of wages directly depends on the place of residence of the applicant (large cities), the level of education, work experience, readiness to move and business trips. It should also be noted that middle-aged males have a higher level of expected wages, but in this case, the connection with the greater mobility of this group of applicants (willingness to changing of city and business traveling) cannot be ruled out.
+This project has identified a number of features that need pre-treatment:
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#table-of-contents)
+  - First of all, salary attributes (salary_from, salary_to) of the vacancies table. There are multiple gaps in this feature, and clear outliers;
+
+  - In the names of the regions (name) of the areas table, there are records that do not give accurate information (for example, "Russia" is indicated as the region), which can distort statistics by regions;
+
+  - Many employers (industries table) do not have fields of activity (name).
+
+  Also, during the study, a number of questions arose that need further study.
+
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
