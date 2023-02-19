@@ -1,8 +1,7 @@
 
 ![](./images/data_cleaning.png)
-# <center> Очистка данных на Python </center>
+# <center> Очистка данных на Python </center>[English version](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#english-version)
 
-# <center> Data cleaning by Python </center> [English version](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20#english-version)
 
 ## Оглавление
 1. [Описание проекта](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/README.md#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
@@ -136,7 +135,7 @@ git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%
 :arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/README.md#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 
-## English Version
+# <center> Data cleaning by Python </center> [Русская версия](# <center> Data cleaning by Python </center> )
 
 ## Table of contents
 
