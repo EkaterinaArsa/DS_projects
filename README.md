@@ -2,11 +2,16 @@
 
 ## The file folder is a collection of several projects that demonstrate the work of a data scientist at various stages.
 
- **Проект** по визуализации данных по оттоку клиентов из банка [ПОСМОТРИ НА МЕНЯ](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0)
+ **Проект 1** по визуализации данных по оттоку клиентов из банка [ПОСМОТРИ НА МЕНЯ](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0)
 
-**Project** visualization of data on the outflow of customers from the bank[LOOK HERE](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0)
+**Project 1** visualization of data on the outflow of customers from the bank[LOOK HERE](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%20%D0%BE%D1%82%D1%82%D0%BE%D0%BA%D1%83%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0)
 
 
-**Проект** направленный на исследование структуры, преобразование, исследование зависимостей (разведывательный анализ) и очистку данных,  представленных в резюме на HeadHunter (hh.ru) [ПОСМОТРИ НА МЕНЯ](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20)
+**Проект 2** направленный на исследование структуры, преобразование, исследование зависимостей (разведывательный анализ) и очистку данных,  представленных в резюме на HeadHunter (hh.ru) [ПОСМОТРИ НА МЕНЯ](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20)
 
-**Project** aims to study the structure, transformation of data, study of its dependencies and clean up it presented in the resumes on HeadHunter (hh.ru) [LOOK HERE](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20)
+**Project 2** aims to study the structure, transformation of data, study of its dependencies and clean up it presented in the resumes on HeadHunter (hh.ru) [LOOK HERE](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20)
+
+
+**Проект 3** по использованию SQL запросов для анализа вакансий представленных на HH.ru [ПОСМОТРИ НА МЕНЯ](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization))
+
+**Project 3** on using SQL queries to analyze vacancies presented on HH.ru [LOOK HERE](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization))
