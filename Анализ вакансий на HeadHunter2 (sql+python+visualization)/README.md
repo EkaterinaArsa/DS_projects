@@ -7,21 +7,21 @@
 ## Оглавление
 1. [Описание проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-1.1. [Краткая информация о данных](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
+1.1. [Краткая информация о данных](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
 
-1.2. [Этапы работы над проектом](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC)
+1.2. [Этапы работы над проектом](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython)%2Bvisualization#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC)
     
-1.3. [Результаты и предварительные выводы](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
+1.3. [Результаты и предварительные выводы](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
-2. [Используемый зависимости](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D0%B5-%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8)
+2. [Используемый зависимости](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D0%B5-%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8)
 
-3. [Установка проекта](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/README.md#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
+3. [Установка проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-4. [Использование проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
+4. [Использование проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-5. [Авторы](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization#%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%8B)
+5. [Авторы](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%8B)
 
-6. [Выводы](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
+6. [Выводы](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
 ## Описание проекта
 
@@ -40,8 +40,8 @@
 
 ** О структуре проекта:**
 
-* [Папка с информацией о таблицах](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization/Tables)
-* [HHru analysis(sql+python+visualization).ipynb](./Analysis_of_HeadHunter_info.ipynb)  - jupyter-ноутбук,  из-за некоторых особенностей взаимодействия GitHub и библиотеки Plotly файл не содержит некоторых результатов визуализации. Интерактивные графики можно увидеть  
+* [Папка с информацией о таблицах](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables)
+* [HHru analysis(sql+python+visualization).ipynb](./HHru analysis(sql+python+visualization).ipynb)  - jupyter-ноутбук,  из-за некоторых особенностей взаимодействия GitHub и библиотеки Plotly файл не содержит некоторых результатов визуализации. Интерактивные графики можно увидеть  
 [Ссылка на код в NBViewer со всеми графиками](https://nbviewer.org/github/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20/Analysis_of_HeadHunter_info.ipynb)
 
 ### Краткая информация о данных
@@ -51,19 +51,21 @@
 
 Необходимо было провести разведывательный анализ и первичную очистку данных, с целью будущего  построения модели, которая бы прогнозировала размеры заработной платы предлагаемой соискателям, опираясь на параметры самого соискателя, и его особенности.
 
-1. VACANCIES [Здесь]()
+Информация о данных в таблицах:
+
+1. VACANCIES [Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Vacancies.png)
 Таблица хранит в себе данные по вакансиям.
 
-2. AREAS[Здесь]()
+2. AREAS[Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Areas.png)
 Таблица-справочник, которая хранит код города и его название.
 
-3. EMPLOYERS [Здесь]()
+3. EMPLOYERS [Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Employers.png)
 Таблица-справочник со списком работодателей.
 
-4. INDUSTRIES [Здесь]()
+4. INDUSTRIES [Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Industries.png)
 Таблица-справочник вариантов сфер деятельности работодателей.
 
-5. EMPLOYERS_INDUSTRIES [Здесь]()
+5. EMPLOYERS_INDUSTRIES [Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Employers_industries.png)
 Дополнительная таблица, которая существует для организации связи между работодателями и сферами их деятельности.
 
 Используемые для анализа данные содержат информацию из 49190 резюме, 23501 работодателе и  1362 регионах.
@@ -185,7 +187,7 @@
 ## Установка проекта
 
 ```
-git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%BD%D0%B0%20HeadHunter%20
+git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)
 ```
 :arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
