@@ -1,25 +1,25 @@
 
-# <center> Разведываетленый анализ данных и построение регрессивной модели, предсказывающей рейтинг отелей </center> [English version](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#-application-of-sqlpython-for-data-analysis--%D0%BA-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8)
+# <center> Разведывательный анализ данных и построение регрессивной модели, предсказывающей рейтинг отелей </center> [English version](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#-exploratory-data-analysis-and-building-a-regression-model-that-predicts-the-rating-of-hotels--%D0%BA-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8)
 
 
 ## Оглавление
-1. [Описание проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
+1. [Описание проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-1.1. [Краткая информация о данных](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
+1.1. [Краткая информация о данных](hhttps://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
 
-1.2. [Этапы работы над проектом](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython)%2Bvisualization#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC)
+1.2. [Этапы работы над проектом](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC)
     
-1.3. [Предварительные выводы](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B-%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
+1.3. [Предварительные выводы](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BF%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
-2. [Используемый зависимости](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D0%B5-%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8)
+2. [Используемый зависимости](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D0%B5-%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8)
 
-3. [Установка проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
+3. [Установка проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-4. [Использование проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
+4. [Использование проекта](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-5. [Авторы](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%8B)
+5. [Авторы](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D1%8B)
 
-6. [Результаты](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
+6. [Результаты](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B)
 
 ## Описание проекта
 
@@ -49,9 +49,10 @@
 
 ** О структуре проекта:**
 
-* [Сабмишн](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables)
-* [Ноутбук с кодом/Booking_model.ipynb](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/
-* [Папка с данными]() датасет с  тренировочными  данными (hotels_train.csv.zip); датасет с тестовыми данными (hotels_test.csv.zip) и датасет-образец сабмишна (submission.csv.zip)
+* [Сабмишн](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/submission.csv)
+* [Ноутбук с кодом/Booking_model.ipynb](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/booking_model.ipynb)
+* [Папка с данными](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model/data)  датасет с тестовыми данными (hotels_test.csv.zip) и датасет-образец сабмишна (submission.csv.zip)
+* [requirements.txt](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/requirements.txt)
 
 ### Краткая информация о данных
 
@@ -59,7 +60,7 @@
 
 Информация о данных в датасетах:
 
-1. hotels_train.csv.zip [Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Vacancies.png)
+1. hotels_train.csv.zip 
 Первоначальная версия датасета содержит информацию о **386803 записей** (отзывов) по **17 признакам** со следующей информацией:
 
 - hotel_address — адрес отеля;
@@ -80,14 +81,14 @@
 - lat — географическая широта отеля;
 - lng — географическая долгота отеля.
 
-2. hotels_test.csv.zip [Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Vacancies.png)
+2. hotels_test.csv.zip [Здесь](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model/data)
 Первоначальная версия датасета содержит информацию о **128935 записей** (отзывов) по **16 признакам** (без  'reviewer_score').
 
-3. submission.csv.zip [Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/Tables/Vacancies.png)
+3. submission.csv.zip [Здесь](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model/data)
 Содержит датасет, включающий 128935 строки и два признака 'reviewer_score' и 'id'.
 
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ### Этапы работы над проектом
 
@@ -198,35 +199,36 @@ sklearn.model_selection, sklearn.ensemble (RandomForestRegressor), sklearn (metr
 
 *  9 этап. Отправка результатов на соревнование в Kaggle
 
- Результаты работы модели (файл submission.csv) отправидли для участия в соотвествующее соревновании на Kaggle.
+ Результаты работы модели (файл submission.csv) отправидли для участия в соотвествующее соревновании на [Kaggle](https://www.kaggle.com/code/ekaterinaarsa/booking-model?scriptVersionId=125799483)
+ 
 
 *  10 этап. Подготовка и выгрузка проекта в GitHub.
 
- Оформление проекта производилось на локальном компьютере, созданы вспомагательные файлы requirements.txt, README.md.
+ Оформление проекта производилось на локальном компьютере, созданы вспомогательные файлы requirements.txt, README.md.
 
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ### Предварительные выводы
 
  На основе проведенного анализа и преобразования исходных данных удалось обучить модель демонстрирующую точность 12.54 % по заданной статистическрой мере MAPE (Mean Absolute Percentages Error).
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ## Используемые зависимости
-отражены в приложенном файле requrments.txt [Здесь]()
+отражены в приложенном файле requrments.txt [Здесь](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/requirements.txt))
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ## Установка проекта
 
 ```
-git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)
+git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model
 ```
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ## Использование проекта
-Вся информация о проделанной работе представлена в jupyter-ноутбуке booking_model.ipynb.
+Вся информация о проделанной работе представлена в jupyter-ноутбуке [booking_model.ipynb](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/booking_model.ipynb)
 
 ## Авторы
 
@@ -236,36 +238,36 @@ git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%
 
 [VK](https://vk.com/id8747545 )
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 ## Результаты
  
  Проведенный анализ и преобразование исходных позволил создать модель, демонстрирующую достаточно высокую точность - 12.54 % по заданной статистическрой мере MAPE (Mean Absolute Percentages Error).
 
-:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
+:arrow_up:[к оглавлению](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#%D0%BE%D0%B3%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5)
 
 
-# <center> Exploratory data analysis and building a regression model that predicts the rating of hotels </center> [К русской версии](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-sqlpython-%D0%B4%D0%BB%D1%8F-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85--english-version)
+# <center> Exploratory data analysis and building a regression model that predicts the rating of hotels </center> [К русской версии](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%B8-%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5-%D1%80%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B5%D0%B9-%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3-%D0%BE%D1%82%D0%B5%D0%BB%D0%B5%D0%B9--english-version)
 
 ## Table of contents
 
-1. [Project description](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#project-description)
+1. [Project description](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#project-description)
 
-1.1. [Brief information about the data](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#brief-information-about-the-data)
+1.1. [Brief information about the data](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#brief-information-about-the-data)
 
-1.2. [Stages of work on the project](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#stages-of-work-on-the-project)
+1.2. [Stages of work on the project](hhttps://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#stages-of-work-on-the-project)
     
-1.3. [Preliminary conclusions](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#results-and-preliminary-conclusions)
+1.3. [Preliminary conclusions](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#preliminary-conclusions)
 
-2. [Used libraries](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#used-libraries)
+2. [Used libraries](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#used-libraries)
 
-3. [Project uploading](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#project-uploading)
+3. [Project uploading](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#project-uploading)
 
-4. [Application of project](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#application-of-project)
+4. [Application of project](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#application-of-project)
 
-5. [Autors](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#autors)
+5. [Autors](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#autors)
 
-6. [Results](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#conclusions)
+6. [Results](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#results)
 
 ## Project description
 
@@ -296,9 +298,10 @@ Our project includes several stages:
 
 
 ** Structure of project:**
-[submission](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2 %D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)/ tables)
-* [Notebook with code/Booking_model.ipynb](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0% B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20( sql%2Bpython%2Bvisualization)/
-* [Data folder]() dataset with training data (hotels_train.csv.zip); test dataset (hotels_test.csv.zip) and submission sample dataset (submission.csv.zip).
+[submission](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/submission.csv)
+* [Notebook with code/Booking_model.ipynb](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/booking_model.ipynb)
+* [Data folder](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model/data) test dataset (hotels_test.csv.zip) and submission sample dataset (submission.csv.zip).
+* [requirements.txt](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/requirements.txt)
 
 ### Brief information about the data
 
@@ -306,7 +309,7 @@ TThe initial data is a set of datasets.
 
 Information about data in datasets:
 
-1. hotels_train.csv.zip [Here](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0% B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20( sql%2Bpython%2Bvisualization)/Tables/Vacancies.png)
+1. hotels_train.csv.zip
 The initial version of the dataset contains information about **386803 records** (reviews) for **17 features** with the following information:
 
 - hotel_address — hotel address;
@@ -327,13 +330,13 @@ The initial version of the dataset contains information about **386803 records**
 - lat - geographical latitude of the hotel;
 - lng — geographic longitude of the hotel.
 
-2. hotels_test.csv.zip [Here](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0% B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20( sql%2Bpython%2Bvisualization)/Tables/Vacancies.png)
+2. hotels_test.csv.zip [Here](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model/data)
 The initial version of the dataset contains information about **128935 records** (reviews) for **16 features** (without 'reviewer_score').
 
-3. submission.csv.zip [Here](https://github.com/EkaterinaArsa/DS_projects/blob/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0% B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20( sql%2Bpython%2Bvisualization)/Tables/Vacancies.png)
+3. submission.csv.zip [Here](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model/data)
 Contains a dataset containing 128935 rows and two features 'reviewer_score' and 'id'.
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#table-of-contents)
 
 ### Stages of work on the project
 
@@ -443,7 +446,7 @@ Comparing the traits 'country' and 'reviewer_nationality' created a new binary t
 
   The received values were transferred to the submission and written to the submission.csv file
 
-* Stage 9. Submitting results to a competition in Kaggle
+* Stage 9. Submitting results to a competition in [Kaggle](https://www.kaggle.com/code/ekaterinaarsa/booking-model?scriptVersionId=125799483)
 
   The results of the model (file submission.csv) were sent to participate in the appropriate competition on Kaggle.
 
@@ -452,31 +455,31 @@ Comparing the traits 'country' and 'reviewer_nationality' created a new binary t
  The design of the project was carried out on the local computer, auxiliary files requirements.txt, README.md were created.
 
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#table-of-contents)
 
 ### Preliminary conclusions
 
   Based on the analysis and transformation of the initial data, it was possible to train the model with an accuracy of 12.54% for a given statistical measure MAPE (Mean Absolute Percentages Error).
 
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#table-of-contents)
 
 ## Used libraries
 
-reflected in the attached file requrments.txt [Here]()
+reflected in the attached file requrments.txt [Here](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/requirements.txt)
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#table-of-contents)
 
 ## Project uploading
 
 ```
-git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)
+git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model
 ```
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#table-of-contents)
 
 ## Application of project
-Total information (code) about the work is presented in the jupyter notebook booking_model.ipynb.
+Total information (code) about the work is presented in the jupyter notebook [booking_model.ipynb](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/booking_model.ipynb)
 
 ## Autors
 
@@ -486,10 +489,10 @@ Total information (code) about the work is presented in the jupyter notebook boo
 
 [VK](https://vk.com/id8747545 )
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#table-of-contents)
 
 ## Results
  
   The performed analysis and transformation of the initial ones made it possible to create a model that demonstrates a fairly high accuracy - 12.54% for a given statistical measure MAPE (Mean Absolute Percentages Error).
 
-:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9%20%D0%BD%D0%B0%20HeadHunter2%20(sql%2Bpython%2Bvisualization)#table-of-contents)
+:arrow_up:[To table of contents](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#table-of-contents)
