@@ -255,7 +255,7 @@ git clone https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model
 
 1.1. [Brief information about the data](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#brief-information-about-the-data)
 
-1.2. [Stages of work on the project](hhttps://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#stages-of-work-on-the-project)
+1.2. [Stages of work on the project](https://github.com/EkaterinaArsa/DS_projects/blob/master/Booking_model/README.md#stages-of-work-on-the-project)
     
 1.3. [Preliminary conclusions](https://github.com/EkaterinaArsa/DS_projects/tree/master/Booking_model#preliminary-conclusions)
 
